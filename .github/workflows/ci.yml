@@ -28,7 +28,7 @@ jobs:
 
       - name: Test Flask import
         run: |
-          python -c "from app import app; print('Flask app loaded successfully')"
+          pytest
 
       - name: Build Docker image
         run: |
