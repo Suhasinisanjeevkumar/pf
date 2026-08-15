@@ -1,0 +1,22 @@
+{
+  "paths": [
+    {
+      "path": "/ping",
+      "method": "GET",
+      "description": "Health check endpoint",
+      "type": "Internal"
+    },
+    {
+      "path": "/greet",
+      "method": "GET",
+      "description": "Returns a greeting",
+      "type": "External"
+    },
+    {
+      "path": "/sum",
+      "method": "POST",
+      "description": "Calculates the sum of two numbers",
+      "type": "Internal"
+    }
+  ]
+}

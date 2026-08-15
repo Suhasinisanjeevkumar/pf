@@ -1,0 +1,9 @@
+service_settings:
+  stack_name: "mlops-fargate-practice"
+  ecr_repo: "mlops-fargate-practice"
+  container_port: "5050"
+  health_check_path: "/ping"
+
+owners:
+  pipeline_owner_email: "your-email@example.com"
+  service_owner: "your-email@example.com"

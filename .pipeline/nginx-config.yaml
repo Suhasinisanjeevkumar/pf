@@ -1,0 +1,14 @@
+base-path: /mlops-fargate-practice
+
+caller-application:
+  - mlops-practice-client
+
+paths:
+  /ping:
+    get:
+
+  /greet:
+    get:
+
+  /sum:
+    post:
